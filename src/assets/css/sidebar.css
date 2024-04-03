@@ -1,0 +1,181 @@
+.sidebar {
+  width: 15.6%;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 10;
+  transition: 0.3s;
+  margin-top: 86px;
+  border-radius: 0 10px 0 0;
+  background: url('../../../public/images/sidepanel.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+  /* .sidebar span{
+    display: none;
+    transition:0.3s;
+  
+  } */
+  
+.body-header {
+  /* margin-left: 269px; */
+  padding-top: 87px;
+  /* height: 100vh; */
+}
+  /* .sidebar:hover {
+    width: 220px;
+    transition:0.3s;
+  } */
+  .submenu ul li a span {
+    font-family: Bitter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+    transition: 0.3s;
+}
+  .sidebar:hover span{
+    display: block;
+    transition:0.3s; 
+  }
+  .sidebar .submenu ul {
+    padding: 20px 0px 20px 20px;
+}
+  .sidebar .homeicon {
+    background-image: url('../../../public/images/Home1.svg');
+    background-size: 17px;
+
+  }
+  .sidebar li:hover .homeicon {
+    background-image: url('../../../public/images/iconhome.gif'); 
+    background-size:22px;
+    image-rendering: optimizeSpeed; /* Older versions of Firefox */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
+    image-rendering: crisp-edges; /* CSS standard */
+    
+    /* Improves the quality of the edges of the icon */
+    shape-rendering: geometricPrecision;
+  }
+  .sidebar .history {
+    background-image: url('../../../public/images/historyi.svg');
+    background-size: 17px;
+
+  }
+  .sidebar li:hover .history {
+    background-image: url('../../../public/images/history.gif'); 
+    background-size:22px;
+    image-rendering: optimizeSpeed; /* Older versions of Firefox */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
+    image-rendering: crisp-edges; /* CSS standard */
+    
+    /* Improves the quality of the edges of the icon */
+    shape-rendering: geometricPrecision;
+  }
+  .sidebar .dissemination {
+    background-image: url('../../../public/images/Disperse.svg');
+    background-size: 17px;
+
+  }
+  .sidebar li:hover .dissemination {
+    background-image: url('../../../public/images/dissemination.gif'); 
+    background-size:22px;
+    image-rendering: optimizeSpeed; /* Older versions of Firefox */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
+    image-rendering: crisp-edges; /* CSS standard */
+    
+    /* Improves the quality of the edges of the icon */
+    shape-rendering: geometricPrecision;
+  }
+  .sidebar .analytics {
+    background-image: url('../../../public/images/Analytics.svg');
+    background-size: 17px;
+
+  }
+  .sidebar li:hover .analytics {
+    background-image: url('../../../public/images/analytics.gif'); 
+    background-size:22px;
+    image-rendering: optimizeSpeed; /* Older versions of Firefox */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
+    image-rendering: crisp-edges; /* CSS standard */
+    
+    /* Improves the quality of the edges of the icon */
+    shape-rendering: geometricPrecision;
+  }
+  .sidebar .editpanel {
+    background-image: url('../../../public/images/EditPanel.svg');
+    background-size: 17px;
+
+  }
+  .sidebar li:hover .editpanel {
+    background-image: url('../../../public/images/editpanel.gif'); 
+    background-size:22px;
+    image-rendering: optimizeSpeed; /* Older versions of Firefox */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
+    image-rendering: crisp-edges; /* CSS standard */
+    
+    /* Improves the quality of the edges of the icon */
+    shape-rendering: geometricPrecision;
+  }
+  .sidebar .cart {
+    background-image: url('../../../public/images/Cart.svg');
+    background-size: 17px;
+
+  }
+  .sidebar li:hover .cart {
+    background-image: url('../../../public/images/cart.gif'); 
+    background-size:22px;
+    image-rendering: optimizeSpeed; /* Older versions of Firefox */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
+    image-rendering: crisp-edges; /* CSS standard */
+    
+    /* Improves the quality of the edges of the icon */
+    shape-rendering: geometricPrecision;
+  }
+
+.sidebar .menutabimge{
+  width:22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+  image-rendering: optimizeSpeed; /* Older versions of Firefox */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
+    image-rendering: crisp-edges; /* CSS standard */
+    
+    /* Improves the quality of the edges of the icon */
+    shape-rendering: geometricPrecision;
+}
+.submenu li {
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.submenu li:hover {
+  background-color: #fff;
+  box-shadow: -4px 4px 20px 0px #EE4F5A14;
+  border-radius: 4px 0px 0px 4px;
+}
+.submenu li:hover span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 3px;
+
+}
